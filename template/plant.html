@@ -1,0 +1,267 @@
+{% load static %}
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+
+  <style>
+    /* ========================ItemsPart============= */
+
+    :root {
+      --blue_color: #1A7EF2;
+      --white_color: #FFFFFF;
+      --mejenta_color: #DA14AE;
+      --black_color: #000000;
+      --popins: "Poppins", sans-serif;
+
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+    .TopName{
+      color:green;
+    }
+
+    .ItemsPart {
+      background-color: var(--white_color);
+      /* padding: 100px 0; */
+    }
+
+    .ItemsPartTop__title {
+      color: var(--mejenta_color);
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 77px;
+      font-family: var(--popins);
+      padding-top:50px;
+    }
+
+    .ItemsPartTopWrapper {
+      position: relative;
+    }
+
+    .ItemsPartTopWrapper::after {
+      position: absolute;
+      content: "";
+      width: 250px;
+      height: 2px;
+      background-color: #1A7EF2;
+      padding-bottom: 20px;
+
+    }
+
+    .CustomeCard {
+      background-color: #D9D9D9;
+      /* border: 2px solid var(--mejenta_color); */
+
+    }
+
+    .CustomeCardPrice {
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 24px;
+      font-family: var(--popins);
+      color: var(--mejenta_color);
+    }
+
+    .CustomeCardName {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      font-family: var(--popins);
+      color: var(--black_color);
+      padding-bottom: 5px;
+    }
+
+    .CardImage {
+      width: 320px;
+      height: 300px;
+    }
+
+    .Details {
+      width: 80px;
+      height: 38px;
+      background-color: var(--mejenta_color);
+      color: var(--white_color);
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      font-family: var(--popins);
+    }
+
+    .Create {
+
+      width: 80px;
+      height: 38px;
+      background-color: purple;
+      color: var(--white_color);
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      font-family: var(--popins);
+
+    }
+
+    .Update{
+
+
+      width: 80px;
+      height: 38px;
+      background-color:#F765A4;
+      color: var(--white_color);
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      font-family: var(--popins);
+
+
+
+
+    }
+
+    .Delete{
+
+      width: 80px;
+      height: 38px;
+      background-color:#4B0082;
+      color: var(--white_color);
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      font-family: var(--popins);
+
+
+
+    }
+
+    .logout{
+      color:var(--white_color);
+      font-family: var(--popins);
+    }
+
+
+    /* ========================ItemsPart============= */
+  </style>
+
+
+
+
+  <!-- =================== Google fonts CDN Link ===== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- =================== Google fonts CDN Link ===== -->
+
+
+  <!-- ========= fontawesome ===============-->
+  <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+    href="/css/app-wa-3b124ff0e0d7a67cd8c995d0aeb1d15a.css?vsn=d">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+
+  <!-- ===================== bootstrap CDN Link ======= -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- ===================== bootstrap CDN Link ======= -->
+  <!-- ========= fontawesome ===============-->
+
+
+
+
+
+
+
+</head>
+
+<body>
+    <section>
+      <div class="container">
+        <h1 class="TopName">Azlina Arabi Hossain Aylin</h1>
+        <h2 class="TopName">21201192</h2>
+      </div>
+
+    </section>
+  <!-- ============================ Items Part ============ -->
+  <section class="ItemsPart">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ItemsPartTopWrapper mb-5">
+            <h1 class="ItemsPartTop__title">Plants</h1>
+          </div>
+
+
+
+          <div class="row">
+            {% for pts in pla %}
+            <div class="col-lg-3 d-flex justify-content-between">
+              <div class="card CustomCardFull mb-5" style="width: 18rem;">
+
+
+                <img class="img-fluid-100 card-img-top CardImage" src="{{pts.pic.url}}" alt="Card image cap">
+
+
+                <div class="card-body CustomeCard">
+
+                  <p class="CustomeCardPrice">{{pts.price}}/-</p>
+                  <p class="CustomeCardName">{{pts.name}}</p>
+                  <a href="{% url 'updatePlant' pts.id %}"><button class="Update">Update</button></a>
+                   <a href="{% url 'deletePlants' pts.id %}"><button class="Delete mt-1">Delete</button></a>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+
+           <a href="{% url 'createPlant' %}"><button class="Create">Create</button></a>
+
+
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- ============================ Items ============ -->
+
+
+  <!-- ====================== footer ============== -->
+
+  <!-- ====================== footer ============== -->
+
+
+  <!-- ===================== bootstrap CDN Link ======= -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- ===================== bootstrap CDN Link ======= -->
+</body>
+
+</html>
